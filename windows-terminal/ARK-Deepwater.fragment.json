@@ -23,5 +23,15 @@
       "brightCyan": "#A1F6F6",
       "brightWhite": "#F7FBFF"
     }
+  ],
+  "profiles": [
+    {
+      "guid": "{e4b95a6c-f065-4d9c-9c29-4a30f302f4dc}",
+      "name": "⚓ ARK Tender",
+      "commandline": "pwsh.exe -NoLogo",
+      "startingDirectory": "%USERPROFILE%",
+      "colorScheme": "ARK Deepwater",
+      "hidden": false
+    }
   ]
 }
