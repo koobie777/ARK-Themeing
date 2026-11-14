@@ -64,6 +64,14 @@ function existing_ark_test { 'KEEP' }
     if ($global:LASTEXITCODE -ne 17) {
         throw 'Prompt incorrectly changed LASTEXITCODE.'
     }
+    # Exercise the full ARK naval prompt as well as Expert mode.
+    $env:ARK_POST = 'cairn/invalid-characters-and-way-too-long'
+    $env:ARK_PROMPT_MODE = 'admiral'
+    $global:LASTEXITCODE = 23
+    $returned = prompt
+    if ($returned -ne ' ' -or $global:LASTEXITCODE -ne 23) {
+        throw 'Admiral prompt failed to preserve command status.'
+    }
     Remove-Item Env:ARK_POST, Env:ARK_PROMPT_MODE -ErrorAction SilentlyContinue
 
     & $src -Remove -ProfilePath $profilePath -FragmentsRoot $fragments -InstallRoot $install
