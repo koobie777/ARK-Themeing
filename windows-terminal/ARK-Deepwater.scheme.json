@@ -1,0 +1,23 @@
+{
+  "name": "ARK Deepwater",
+  "background": "#080D14",
+  "foreground": "#DCE8F1",
+  "cursorColor": "#58E1E8",
+  "selectionBackground": "#243849",
+  "black": "#080D14",
+  "red": "#FF5D73",
+  "green": "#5CD6A3",
+  "yellow": "#E4B764",
+  "blue": "#63A9FF",
+  "purple": "#BA8BFF",
+  "cyan": "#58E1E8",
+  "white": "#DCE8F1",
+  "brightBlack": "#526477",
+  "brightRed": "#FF8C9B",
+  "brightGreen": "#90E9C4",
+  "brightYellow": "#FFD48B",
+  "brightBlue": "#93C5FF",
+  "brightPurple": "#D4AEFF",
+  "brightCyan": "#A1F6F6",
+  "brightWhite": "#F7FBFF"
+}
