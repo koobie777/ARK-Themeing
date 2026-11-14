@@ -1,8 +1,6 @@
 # ARK Command Deck prompt for PowerShell 7
 # Standalone: no font, Starship, Oh My Posh, API, network, Git, or elevation required.
 # Opt-in: dot-source this script from the user's PowerShell 7 profile.
-Set-StrictMode -Version Latest
-
 function global:prompt {
     # Preserve external program exit code; a prompt should not change command results.
     $lastNativeExitCode = $global:LASTEXITCODE
