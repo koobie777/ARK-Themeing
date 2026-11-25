@@ -1,0 +1,37 @@
+{
+  "schemes": [
+    {
+      "name": "ARK Deepwater",
+      "background": "#080D14",
+      "foreground": "#DCE8F1",
+      "cursorColor": "#58E1E8",
+      "selectionBackground": "#243849",
+      "black": "#080D14",
+      "red": "#FF5D73",
+      "green": "#5CD6A3",
+      "yellow": "#E4B764",
+      "blue": "#63A9FF",
+      "purple": "#BA8BFF",
+      "cyan": "#58E1E8",
+      "white": "#DCE8F1",
+      "brightBlack": "#526477",
+      "brightRed": "#FF8C9B",
+      "brightGreen": "#90E9C4",
+      "brightYellow": "#FFD48B",
+      "brightBlue": "#93C5FF",
+      "brightPurple": "#D4AEFF",
+      "brightCyan": "#A1F6F6",
+      "brightWhite": "#F7FBFF"
+    }
+  ],
+  "profiles": [
+    {
+      "guid": "{e4b95a6c-f065-4d9c-9c29-4a30f302f4dc}",
+      "name": "⚓ ARK Tender",
+      "commandline": "pwsh.exe -NoLogo",
+      "startingDirectory": "%USERPROFILE%",
+      "colorScheme": "ARK Deepwater",
+      "hidden": false
+    }
+  ]
+}
