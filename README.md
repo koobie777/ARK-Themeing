@@ -1,5 +1,8 @@
 # 🛰️ ARK THEMEING – ESSENTIAL MODULE
 
+History: [CHANGELOG.md](CHANGELOG.md).
+
+
 > “Every command shines in ARK colors. Every prompt inspires the fleet.”
 
 ---
